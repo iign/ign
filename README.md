@@ -1,2 +1,3 @@
-# ign
-Homepage (ign.uy)
+# Home
+
+A simple static website ⚡
