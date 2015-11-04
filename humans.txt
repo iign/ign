@@ -3,7 +3,6 @@
   Development: Ignacio Toledo
       Twitter: @iign
        E-mail: ignacio [at] montag.uy
-       Mobile: +598 95 646 646
       Website: http://ign.uy
      Location: San Salvador 1954/01 · Montevideo, Uruguay
 
@@ -11,11 +10,8 @@
 
       Twitter: @Montag_UY
 
-/* THANKS */
-
-
 /* SITE */
 
          Born: 2013/02/06
-  Last Update: 2015/06/16
+  Last Update: 2015/11/03
       Doctype: HTML5

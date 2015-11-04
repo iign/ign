@@ -20,14 +20,14 @@ a{
 }
 
 @keyframes faderotatein{
-  0%   { 
-    opacity: 0; 
+  0%   {
+    opacity: 0;
     top: -30px;
     transform: scale3d(1.2, 1.2, 1.2) rotateY(0.5turn);
   }
-  100% { 
-    opacity: 1; 
-    top: 0; 
+  100% {
+    opacity: 1;
+    top: 0;
     transform: scale3d(1,1,1) rotateY(0turn);
   }
 }
@@ -100,4 +100,8 @@ a{
 
 .subtitle{
   font-weight: 300;
+}
+
+.new{
+  padding-left: 28px;
 }
