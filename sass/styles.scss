@@ -2,18 +2,21 @@
 
 
 html{
-  background: linear-gradient(180deg, #DAEDFB 10%, #DADDFB 90%);
   height: 100%;
 }
 
 body {
+  background: linear-gradient(0deg, #DDD, #8BB1C0, #1C5F98, #00020C);
+  background-repeat: no-repeat;
   margin:0 auto;
   text-align: center;
   font-family: 'Lato', sans-serif;
+  color: white;
+  background-attachment: fixed;
 }
 
 a{
-  color: #555;
+  color: white;
   &:hover, &:active{
     color: #DE6C83;
   }
@@ -36,7 +39,6 @@ a{
 
   width: 320px;
   margin: 100px auto 0 auto;
-  color: #555;
 }
 
 .logo{
