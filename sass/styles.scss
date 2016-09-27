@@ -6,11 +6,12 @@ html{
 }
 
 body {
-  background: linear-gradient(0deg, #DDD, #8BB1C0, #1C5F98, #00020C);
+  background: linear-gradient(to top, #e73827, #ff755d);
   background-repeat: no-repeat;
   margin:0 auto;
   text-align: center;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   color: white;
   background-attachment: fixed;
 }
@@ -18,7 +19,7 @@ body {
 a{
   color: white;
   &:hover, &:active{
-    color: #DE6C83;
+    color: #fff;
   }
 }
 
@@ -78,7 +79,7 @@ a{
 }
 .line{
   margin:20px auto;
-  background: url(../images/img_line.png) no-repeat;
+  border-bottom: 1px solid #ff8272;
   height:1px;
 }
 .text2 {
@@ -96,8 +97,13 @@ a{
 }
 .textnormal a{
   text-decoration:none;
-  border-bottom: 1px dotted #CCC;
+  border-bottom: 3px solid rgba(255, 255, 255, 0.15);
   padding-bottom: 3px;
+  transition: 200ms;
+  &:hover{
+    border-bottom: 3px solid #fff;
+    transition: 200ms;
+  }
 }
 
 .subtitle{
